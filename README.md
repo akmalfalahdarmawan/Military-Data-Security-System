@@ -1,4 +1,4 @@
-![Preview](banner_AES.jpg)
+![Preview](banner_AES.jpeg)
 
 
 # 🔐 Military Data Security System with Python
