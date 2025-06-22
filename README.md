@@ -1,4 +1,8 @@
-![Preview](banner_AES.jpeg)
+## 📸 Preview
+
+<p align="center">
+  <img src="banner_AES.jpeg" alt="Preview Output" width="600"/>
+</p>
 
 
 # 🔐 Military Data Security System with Python
