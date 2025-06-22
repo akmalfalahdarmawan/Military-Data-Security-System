@@ -1,6 +1,5 @@
-# Re-run after environment reset: generate the styled README.md again
 
-readme_content = """
+
 # 🔐 Military Data Security System with Python
 
 This project is a simulation of a military-style data security system built using Python. It mimics a secure communication channel between a **commander** and a **troop**, utilizing encryption and token-based authentication.
