@@ -1,4 +1,4 @@
-## 📸 Preview
+
 
 <p align="center">
   <img src="banner_AES.jpeg" alt="Preview Output" width="600"/>
