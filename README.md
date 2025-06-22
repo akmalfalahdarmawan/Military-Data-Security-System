@@ -1,37 +1,41 @@
-🔐 Military Data Security System with Python
-This project is a simulation of a military-style data security system built using Python. It mimics a secure communication channel between a commander and a troop, utilizing encryption and token-based authentication.
+# Re-run after environment reset: generate the styled README.md again
 
-🧰 Key Features
-Message Encryption: Uses Fernet (symmetric encryption) to secure secret messages.
+readme_content = """
+# 🔐 Military Data Security System with Python
 
-Token-based Access: Messages can only be opened with a valid access token (hashed with bcrypt).
+This project is a simulation of a military-style data security system built using Python. It mimics a secure communication channel between a **commander** and a **troop**, utilizing encryption and token-based authentication.
 
-Time-Limited Access: Messages automatically expire after a defined period.
+---
 
-Error Handling: Handles incorrect tokens, expired messages, and invalid keys gracefully.
+## 🧰 Features
 
-Educational Design: Integrates core Python concepts like:
+- ✅ **Message Encryption** using `Fernet` (symmetric encryption)
+- 🔑 **Token-based Authentication** with `bcrypt`
+- ⏰ **Time-limited Message Access**
+- 🚫 **Handles Incorrect Token & Expired Messages**
+- 🎓 **Python Educational Concepts Integrated**:
+  - Conditionals & Looping
+  - Data Structures (`list`, `set`, `tuple`, `dict`)
+  - Lambda Functions
+  - List & Dictionary Comprehension
+  - Functions, Scoping, Recursion
 
-Conditionals & loops
+---
 
-Data structures (list, set, tuple, dict)
+## 📁 Project Structure
 
-Lambda functions
+| File | Description |
+|------|-------------|
+| `main_user.py` | Komandan - Encrypt and send message |
+| `main_pasukan.py` | Pasukan - Decrypt and verify message |
+| `key.key` | Encryption key (auto-generated) |
+| `data_rahasia.json` | Stores encrypted message data |
+| `log_akses.txt` | Records all access attempts |
 
-List/dictionary comprehension
+---
 
-Functions, scoping, and recursion
+## 🚀 How to Run
 
-📁 Files Overview
-main_user.py – Used by the commander to send encrypted messages.
-
-main_pasukan.py – Used by the troop to access and decrypt the message.
-
-key.key – Automatically generated encryption key.
-
-data_rahasia.json – Stores encrypted message data.
-
-log_akses.txt – Records every access attempt.
-
-📚 Purpose
-This project was created as part of a Python programming assignment. It is designed to demonstrate fundamental Python skills in a real-world simulation context while also introducing basic data security practices.
+1. **Install requirements** (if needed):
+   ```bash
+   pip install cryptography bcrypt colorama
